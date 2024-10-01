@@ -1,7 +1,7 @@
 # combine_tibetan_words.py
 import os
 from utils import read_json_file, write_json_file
-
+import json
 def linguatool_parser(input_output_files):
     """
     Processes a list of input JSON files to extract Tibetan words and writes them to corresponding output JSON files.
