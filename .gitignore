@@ -129,5 +129,7 @@ dmypy.json
 .pyre/
 
 
-data/
+
 vscode/
+#.Ds_Store
+.DS_STORE
