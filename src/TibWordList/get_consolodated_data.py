@@ -47,7 +47,6 @@ def combine_unique_word_list(root_directory):
 
         # Process each word in the list
         for word in words:
-            word = word.strip()  # Remove leading/trailing whitespace
             if word:
                 if word not in unique_words:
                     unique_words.add(word)
